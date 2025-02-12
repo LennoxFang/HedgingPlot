@@ -34,7 +34,7 @@ This repository contains an interactive dashboard built with Dash and Plotly tha
 </iframe>
 <iframe src="https://LennoxFang.github.io/Hedging_Plot/bar_chart.html" width="100%" height="1200" frameborder="0"></iframe>
 *If the interactive graphs do not load, launch the interactive notebook in Binder:
-https://mybinder.org/v2/gh/LennoxFang/Hedging_Plot/905053ad580ce390d952667d4f6467511e2f2df6?urlpath=lab%2Ftree%2Fcurrency_plot.ipynb
+[https://mybinder.org/v2/gh/LennoxFang/Hedging_Plot/905053ad580ce390d952667d4f6467511e2f2df6?urlpath=lab%2Ftree%2Fcurrency_plot.ipynb](https://mybinder.org/v2/gh/LennoxFang/Hedging_Plot/bd51b3710557d9505af9eb47dcaea28d28ec1786?urlpath=lab%2Ftree%2Fcurrency_plot.ipynb)
 
 *Note:*  
 - To view the interactive dashboard, you can run the provided Jupyter Notebook (`currency_plot.ipynb`) locally.
