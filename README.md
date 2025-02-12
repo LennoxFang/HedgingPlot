@@ -30,7 +30,7 @@ This repository contains an interactive dashboard built with Dash and Plotly tha
 - **Area Chart:** Shows the evolution of net positions over time for one or more selected currencies.
 
 ## Visual Output
-<iframe src="https://yourusername.github.io/Hedging_Plot/interactive_charts.html" width="100%" height="1200" frameborder="0"></iframe>
+<iframe src="https://LennoxFang.github.io/Hedging_Plot/interactive_charts.html" width="100%" height="1200" frameborder="0"></iframe>
 *If the interactive graphs do not load, launch the interactive notebook in Binder:
 https://mybinder.org/v2/gh/LennoxFang/Hedging_Plot/905053ad580ce390d952667d4f6467511e2f2df6?urlpath=lab%2Ftree%2Fcurrency_plot.ipynb
 
