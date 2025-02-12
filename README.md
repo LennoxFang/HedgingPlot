@@ -1,7 +1,7 @@
 ---
 datapackage:
   title: Plot of Hedging Position
-  description: nteractive dashboard visualizing Hedging Position for multiple currencies and dates.
+  description: interactive dashboard visualizing Hedging Position for multiple currencies and dates.
   created: 2025-02-12
   updated: 2025-02-12
   licenses:
