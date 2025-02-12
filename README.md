@@ -30,7 +30,7 @@ This repository contains an interactive dashboard built with Dash and Plotly tha
 
 ## Visual Output
 <iframe 
-  src="https://LennoxFang.github.io/Hedging_Plot/area_chart.html" 
+  src="https://LennoxFang.github.io/HedgingPlot/area_chart.html" 
   width="1200" 
   height="1200" 
   frameborder="0">
