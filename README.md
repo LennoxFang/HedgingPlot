@@ -12,12 +12,10 @@ datapackage:
       title: "currency_plot.ipynb"
       description: "Source code for the interactive dashboard."
       lastModified: 2025-02-12
-      path: "https://github.com/LennoxFang/Hedging_Plot/archive/refs/heads/main.zip"
     - name: "fwd_holding_merged_10q1-23q2.dta"
       title: "fwd_holding_merged_10q1-23q2.dta"
       description: "Main dataset for Hedging Position."
       lastModified: 2025-02-12
-      path: "https://github.com/LennoxFang/Hedging_Plot/archive/refs/heads/main.zip"
 ---
 
 # Plot of Hedging Position
