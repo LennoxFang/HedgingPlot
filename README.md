@@ -19,3 +19,12 @@ datapackage:
     lastModified: 2025-02-12
     path: https://github.com/LennoxFang/HedgingPlot/archive/refs/heads/main.zip
 ---
+# Plot of Hedging Position
+
+This repository contains an interactive dashboard built with Dash and Plotly that visualizes the hedging positions for various currencies.
+
+## Dashboard Features
+
+- **Horizontal Bar Chart:** Displays net positions per currency for a selected quarter.
+- **Area Chart:** Shows the evolution of net positions over time for one or more selected currencies.
+
