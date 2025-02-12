@@ -28,3 +28,9 @@ This repository contains an interactive dashboard built with Dash and Plotly tha
 - **Horizontal Bar Chart:** Displays net positions per currency for a selected quarter.
 - **Area Chart:** Shows the evolution of net positions over time for one or more selected currencies.
 
+## Visual Output
+<iframe 
+  src="https://LennoxFang.github.io/HedgingPlot/area_chart.html" 
+  style="width:100%; min-width:1200px; height:900px; border:0;">
+</iframe>
+<iframe src="https://LennoxFang.github.io/HedgingPlot/bar_chart.html" width="100%" height="1200" frameborder="0"></iframe>
