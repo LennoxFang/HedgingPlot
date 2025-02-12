@@ -31,9 +31,8 @@ This repository contains an interactive dashboard built with Dash and Plotly tha
 
 ## Visual Output
 
-Below is a screenshot of the dashboard output:
-
-![Hedging Position Dashboard](dashboard_output.png)
+Click the badge below to launch the interactive notebook in Binder:
+https://mybinder.org/v2/gh/LennoxFang/Hedging_Plot/905053ad580ce390d952667d4f6467511e2f2df6?urlpath=lab%2Ftree%2Fcurrency_plot.ipynb
 
 *Note:*  
 - To view the interactive dashboard, you can run the provided Jupyter Notebook (`currency_plot.ipynb`) locally.
