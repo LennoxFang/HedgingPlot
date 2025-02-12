@@ -1,19 +1,22 @@
 ---
 datapackage:
-  title: Welcome to your template dataset page!
+  title: Plot of Hedging Position 
   description: This is a template for publishing your dataset with Datahub Cloud.
-  created: 2024-01-01
-  updated: 2024-01-31
+  created: 2025-02-12
+  updated: 2025-02-12
   licenses:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
-  sources:
-  - path: http://link.to/data/source
-    title: Link to data source
   resources:
-  - name: c02-per-decade
-    title: C02 PPM per decade
-    description: C02 PPM per decade
-    lastModified: 2024-01-15
-    path: data.csv
+  - name: currency_plot.ipynb
+    title: currency_plot.ipynb
+    description: src code
+    lastModified: 2025-02-12
+    path: currency_plot.ipynb
+    
+  - name: fwd_holding_merged_10q1-23q2.dta
+    title: fwd_holding_merged_10q1-23q2.dta
+    description: maindata
+    lastModified: 2025-02-12
+    path: fwd_holding_merged_10q1-23q2.dta
 ---
