@@ -29,10 +29,10 @@ This repository contains an interactive dashboard built with Dash and Plotly tha
 
 ## Visual Output
 <iframe 
-  src="https://LennoxFang.github.io/Hedging_Plot/area_chart.html" 
+  src="https://LennoxFang.github.io/HedgingPlot/area_chart.html" 
   style="width:100%; min-width:1200px; height:900px; border:0;">
 </iframe>
-<iframe src="https://LennoxFang.github.io/Hedging_Plot/bar_chart.html" width="100%" height="1200" frameborder="0"></iframe>
+<iframe src="https://LennoxFang.github.io/HedgingPlot/bar_chart.html" width="100%" height="1200" frameborder="0"></iframe>
 *If the interactive graphs do not load, launch the interactive notebook in Binder:
 https://mybinder.org/v2/gh/LennoxFang/Hedging_Plot/bd51b3710557d9505af9eb47dcaea28d28ec1786?urlpath=lab%2Ftree%2Fcurrency_plot.ipynb
 
@@ -44,5 +44,5 @@ https://mybinder.org/v2/gh/LennoxFang/Hedging_Plot/bd51b3710557d9505af9eb47dcaea
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/LennoxFang/Hedging_Plot.git
+   git clone https://github.com/LennoxFang/HedgingPlot.git
    cd Hedging_Plot
