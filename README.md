@@ -30,7 +30,7 @@ This repository contains an interactive dashboard built with Dash and Plotly tha
 ## Visual Output
 <iframe 
   src="https://LennoxFang.github.io/Hedging_Plot/area_chart.html" 
-  style="width:100%; min-width:1200px; height:1200px; border:0;">
+  style="width:100%; min-width:1200px; height:900px; border:0;">
 </iframe>
 <iframe src="https://LennoxFang.github.io/Hedging_Plot/bar_chart.html" width="100%" height="1200" frameborder="0"></iframe>
 *If the interactive graphs do not load, launch the interactive notebook in Binder:
