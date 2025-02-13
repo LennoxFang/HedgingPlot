@@ -50,4 +50,4 @@ https://mybinder.org/v2/gh/LennoxFang/HedgingPlot/d82983950f945d192ea751087ca13e
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/LennoxFang/HedgingPlot.git
-   cd Hedging_Plot
+   cd HedgingPlot
