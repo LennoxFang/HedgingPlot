@@ -1,7 +1,7 @@
 ---
 datapackage:
   title: Plot of Currency Derivatives Position
-  description: interactive dashboard visualizing the net Position of each currency derivative by mutual funds in order to manage their currency exposures
+  description: interactive dashboard visualizing the net Position of each currency derivative of mutual funds in order to manage their currency exposures
   created: 2025-02-12
   updated: 2025-02-12
   licenses:
