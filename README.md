@@ -1,7 +1,7 @@
 ---
 datapackage:
   title: Dataset of Currency Derivatives Position of U.S. international fixed income funds.
-  description: We present an interactive dashboard visualizing the net Position of each currency derivative of mutual funds in order to manage their currency exposures. Here we collect the dataset of currency forward contracts used by U.S. international fixed income funds
+  description: We present an interactive dashboard visualizing the net Position of each currency derivative of mutual funds which is used to manage their currency exposures. Here we collect the dataset of currency forward contracts used by U.S. international fixed income funds
   created: 2025-02-12
   updated: 2025-02-13
   licenses:
