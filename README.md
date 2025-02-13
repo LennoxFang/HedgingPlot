@@ -1,12 +1,15 @@
 ---
 datapackage:
-  title: Plot of Hedging Position
-  description: interactive dashboard visualizing Hedging Position for multiple currencies and dates.
+  title: Plot of Currency Derivatives Position
+  description: interactive dashboard visualizing the net Position of each currency derivative by mutual funds in order to manage their currency exposures
   created: 2025-02-12
   updated: 2025-02-12
   licenses:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
+  sources:
+  - path: https://www.sec.gov/search-filings/mutual-funds-search
+    title: EDGAR system
   resources:
   - name: "currency_plot.ipynb"
     title: "currency_plot.ipynb"
@@ -19,14 +22,12 @@ datapackage:
     lastModified: 2025-02-12
     path: https://github.com/LennoxFang/HedgingPlot/archive/refs/heads/main.zip
 ---
-# Plot of Hedging Position
-
-This repository contains an interactive dashboard built with Dash and Plotly that visualizes the hedging positions for various currencies.
 
 ## Dashboard Features
 
-- **Horizontal Bar Chart:** Displays net positions per currency for a selected quarter.
-- **Area Chart:** Shows the evolution of net positions over time for one or more selected currencies.
+- **Area Chart:** Shows the evolution of net positions over time for one or more selected currency derivatives.
+- **Horizontal Bar Chart:** Displays net positions per currency derivatives for a selected quarter.
+
 
 ## Visual Output
 <iframe 
