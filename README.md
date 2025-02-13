@@ -1,7 +1,7 @@
 ---
 datapackage:
   title: Plot of Currency Derivatives Position
-  description: interactive dashboard visualizing the net Position of each currency derivative of mutual funds in order to manage their currency exposures. Here we collect the dataset of currency forward contracts used by U.S. international fixed income funds.
+  description: Interactive dashboard visualizing the net Position of each currency derivative of mutual funds in order to manage their currency exposures. Here we collect the dataset of currency forward contracts used by U.S. international fixed income funds.
   created: 2025-02-12
   updated: 2025-02-13
   licenses:
