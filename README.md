@@ -4,7 +4,6 @@ datapackage:
   description: >
     We present an interactive dashboard visualizing the net position of each currency derivative of mutual funds which is used to manage their currency exposures. 
     Here we collect the dataset of currency forward contracts used by U.S. international fixed-income funds.
-
   created: 2025-02-12
   updated: 2025-02-14
   licenses:
@@ -51,7 +50,7 @@ We then aggregate the fund-level NFS position to form an overall metric `NFS_{c,
 https://mybinder.org/v2/gh/LennoxFang/HedgingPlot/0b695102f616a3eb934de0fa995b4e10bac7e584?urlpath=lab%2Ftree%2FCurrencyForward_plot.ipynb
 
 *Note:*  
-- To view the interactive dashboard, you can run the provided Jupyter Notebook (`currency_plot.ipynb`) locally.
+- To view the interactive dashboard, you can run the provided Jupyter Notebook (`CurrencyForward_plot.ipynb`) locally.
 - Alternatively, you can deploy the app to a web server and provide a link for online interaction.
 
 ## How to Run Locally
