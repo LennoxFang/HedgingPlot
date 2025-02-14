@@ -48,7 +48,7 @@ We then aggregate the fund-level NFS position to form an overall metric `NFS_{c,
 <iframe src="https://LennoxFang.github.io/HedgingPlot/bar_chart.html" width="100%" height="1200" frameborder="0"></iframe>
 
 *If the interactive graphs do not load, launch the interactive notebook in Binder:
-https://mybinder.org/v2/gh/LennoxFang/HedgingPlot/d82983950f945d192ea751087ca13e69c8a64ffa?urlpath=lab%2Ftree%2Fcurrency_plot.ipynb
+https://mybinder.org/v2/gh/LennoxFang/HedgingPlot/0b695102f616a3eb934de0fa995b4e10bac7e584?urlpath=lab%2Ftree%2FCurrencyForward_plot.ipynb
 
 *Note:*  
 - To view the interactive dashboard, you can run the provided Jupyter Notebook (`currency_plot.ipynb`) locally.
