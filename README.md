@@ -34,8 +34,8 @@ We then aggregate the fund-level NFS position to form an overall metric `NFS_{c,
   
 ## Dashboard Features
 
-- **Area Chart:** Shows the evolution of net sale positions over time for one or more selected currency derivatives.
-- **Horizontal Bar Chart:** Displays a broader picture of net sale positions per currency derivatives for a selected quarter.
+- **Area Chart:** Shows the evolution of net forward sale positions over time for one or more selected currencies.
+- **Horizontal Bar Chart:** Displays a broader picture of net forward sale positions per currency for a selected quarter.
 
 
 ## Visual Output
