@@ -1,8 +1,18 @@
 ---
 datapackage:
   title: Dataset of Currency Derivatives Position of U.S. international fixed income funds.
-  description:> We present an interactive dashboard visualizing the net position of each currency derivative of mutual funds which is used to manage their currency exposures. Here we collect the dataset of currency forward contracts used by U.S. international fixed-income funds. For each fund i, currency c, and date t, We define the Net Forward Sales (NFS) is calculated as follows: NFS<sub>i,c,t</sub> = (F̃S<sub>i,c,t</sub> − F̃P<sub>i,c,t</sub>) / TNA<sub>i,t</sub>
+  description: >
+    We present an interactive dashboard visualizing the net position of each currency derivative of mutual funds which is used to manage their currency exposures. 
+    Here we collect the dataset of currency forward contracts used by U.S. international fixed-income funds.
 
+    For each fund *i*, currency *c*, and date *t*, the Net Forward Sales (NFS) is calculated as follows:
+
+    $$ NFS_{i,c,t} = \frac{\tilde{F}S_{i,c,t} - \tilde{F}P_{i,c,t}}{TNA_{i,t}} $$
+
+    where:
+    - \( \tilde{F}S_{i,c,t} \) is the present value of forward contracts sold.
+    - \( \tilde{F}P_{i,c,t} \) is the present value of forward contracts purchased.
+    - \( TNA_{i,t} \) is the Total Net Assets of fund *i* at time *t*.
 
   created: 2025-02-12
   updated: 2025-02-14
