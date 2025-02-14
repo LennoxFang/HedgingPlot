@@ -5,15 +5,6 @@ datapackage:
     We present an interactive dashboard visualizing the net position of each currency derivative of mutual funds which is used to manage their currency exposures. 
     Here we collect the dataset of currency forward contracts used by U.S. international fixed-income funds.
 
-    For each fund *i*, currency *c*, and date *t*, the Net Forward Sales (NFS) is calculated as follows:
-
-    $$ NFS_{i,c,t} = \frac{\tilde{F}S_{i,c,t} - \tilde{F}P_{i,c,t}}{TNA_{i,t}} $$
-
-    where:
-    - \( \tilde{F}S_{i,c,t} \) is the present value of forward contracts sold.
-    - \( \tilde{F}P_{i,c,t} \) is the present value of forward contracts purchased.
-    - \( TNA_{i,t} \) is the Total Net Assets of fund *i* at time *t*.
-
   created: 2025-02-12
   updated: 2025-02-14
   licenses:
@@ -34,11 +25,19 @@ datapackage:
     lastModified: 2025-02-12
     path: https://github.com/LennoxFang/HedgingPlot/archive/refs/heads/main.zip
 ---
+## Measurement of fund currency forwards
+For each fund *i*, currency *c*, and date *t*, we define the Net Forward Sales (NFS) is calculated as follows:
 
+$$
+NFS_{i,c,t} = \frac{\tilde{F}S_{i,c,t} - \tilde{F}P_{i,c,t}}{TNA_{i,t}}
+$$
+
+We then aggregate the fund-level NFS position to form an overall metric $NFS_{c,t}$ in order to capture the collective behavior of funds for each currency at given time $t$. Similarly, A positive $NFS_{c,t}$ implies that funds are collectively hedging their exposure by selling forwards.
+  
 ## Dashboard Features
 
-- **Area Chart:** Shows the evolution of net positions over time for one or more selected currency derivatives.
-- **Horizontal Bar Chart:** Displays net positions per currency derivatives for a selected quarter.
+- **Area Chart:** Shows the evolution of net sale positions over time for one or more selected currency derivatives.
+- **Horizontal Bar Chart:** Displays a broader picture of net sale positions per currency derivatives for a selected quarter.
 
 
 ## Visual Output
