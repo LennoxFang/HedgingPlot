@@ -26,13 +26,11 @@ datapackage:
     path: https://github.com/LennoxFang/HedgingPlot/archive/refs/heads/main.zip
 ---
 ## Measurement of fund currency forwards
-For each fund *i*, currency *c*, and date *t*, we define the Net Forward Sales (NFS) is calculated as follows:
+For each fund `i`, currency `c`, and date `t`, we define the Net Forward Sales (NFS) is calculated as follows:
 
-$$
-NFS_{i,c,t} = \frac{\tilde{F}S_{i,c,t} - \tilde{F}P_{i,c,t}}{TNA_{i,t}}
-$$
+<img width="1089" alt="de3e3f845c0ae0d45f58c1f5ef654c8" src="https://github.com/user-attachments/assets/e052d92f-6f66-40c2-892c-bbfb2e2a5642" />
 
-We then aggregate the fund-level NFS position to form an overall metric $NFS_{c,t}$ in order to capture the collective behavior of funds for each currency at given time $t$. Similarly, A positive $NFS_{c,t}$ implies that funds are collectively hedging their exposure by selling forwards.
+We then aggregate the fund-level NFS position to form an overall metric `NFS_{c,t}` in order to capture the collective behavior of funds for each currency at given time `t`. Similarly, A positive `NFS_{c,t}` implies that funds are collectively hedging their exposure by selling forwards.
   
 ## Dashboard Features
 
