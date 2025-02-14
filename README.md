@@ -1,6 +1,6 @@
 ---
 datapackage:
-  title: Dataset of Currency Derivatives Position of U.S. international fixed income funds.
+  title: Dataset of Currency Forward Position of U.S. international fixed income funds.
   description: >
     We present an interactive dashboard visualizing the net position of each currency derivative of mutual funds which is used to manage their currency exposures. 
     Here we collect the dataset of currency forward contracts used by U.S. international fixed-income funds.
@@ -14,8 +14,8 @@ datapackage:
   - path: https://www.sec.gov/search-filings/mutual-funds-search
     title: EDGAR system
   resources:
-  - name: "currency_plot.ipynb"
-    title: "currency_plot.ipynb"
+  - name: "CurrencyForward_plot.ipynb"
+    title: "CurrencyForward_plot.ipynb"
     description: "Source code for the interactive dashboard."
     lastModified: 2025-02-12
     path: https://github.com/LennoxFang/HedgingPlot/archive/refs/heads/main.zip
