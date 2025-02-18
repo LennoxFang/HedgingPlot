@@ -1,19 +1,16 @@
----
-datapackage:
-  title: Dataset of Currency Forward Position of U.S. international fixed income funds.
-  description: > 
-    We present an interactive dashboard visualizing the net position of each currency derivative of mutual funds which is used to manage their currency exposures. 
-    Here we collect the dataset of currency forward contracts used by U.S. international fixed-income funds.
-  created: 2025-02-12
-  updated: 2025-02-14
-  licenses:
-  - path: http://opendatacommons.org/licenses/pddl/
-    title: Open Data Commons Public Domain Dedication and License v1.0
-  sources:
-  - path: https://www.sec.gov/search-filings/mutual-funds-search
-    title: EDGAR system
-    
----
+# Dataset of Currency Forward Position of U.S. International Fixed Income Funds
+
+**Description**: We present an interactive dashboard visualizing the net position of each currency derivative of mutual funds...
+
+**Created**: 2025-02-12  
+**Updated**: 2025-02-14  
+
+**Licenses**:  
+- [Open Data Commons Public Domain Dedication and License v1.0](http://opendatacommons.org/licenses/pddl/)
+
+**Sources**:  
+- [EDGAR system](https://www.sec.gov/search-filings/mutual-funds-search)
+
 ## Measurement of fund currency forwards
 For each fund `i`, currency `c`, and date `t`, we define the Net Forward Sales (NFS) is calculated as follows:
 
