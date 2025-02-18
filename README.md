@@ -1,6 +1,7 @@
 # Dataset of Currency Forward Position of U.S. International Fixed Income Funds
 
-**Description**: We present an interactive dashboard visualizing the net position of each currency derivative of mutual funds...
+**Description**: We present an interactive dashboard visualizing the net position of each currency derivative of mutual funds which is used to manage their currency exposures. 
+    Here we collect the dataset of currency forward contracts for major currencies used by U.S. international fixed-income funds.
 
 **Created**: 2025-02-12  
 **Updated**: 2025-02-18  
@@ -21,7 +22,7 @@ We then aggregate the fund-level NFS position to form an overall metric `NFS_{c,
 ## Dashboard Features
 
 - **Area Chart:** Shows the evolution of net forward sale positions over time for one or more selected currencies.
-- **Horizontal Bar Chart:** Displays a broader picture of net forward sale positions per currency for a selected quarter.
+- **Horizontal Bar Chart:** Displays a broader picture of net forward sale positions per currency for a selected year end date.
 
 
 ## Visual Output
