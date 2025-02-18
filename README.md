@@ -12,17 +12,6 @@ datapackage:
   sources:
   - path: https://www.sec.gov/search-filings/mutual-funds-search
     title: EDGAR system
-  resources:
-  - name: "CurrencyForward_plot.ipynb"
-    title: "CurrencyForward_plot.ipynb"
-    description: "Source code for the interactive dashboard."
-    lastModified: 2025-02-12
-    path: https://github.com/LennoxFang/HedgingPlot/archive/refs/heads/main.zip
-  - name: "fwd_holding_merged_10q1-23q2.dta"
-    title: "fwd_holding_merged_10q1-23q2.dta"
-    description: "Main dataset for Hedging Position."
-    lastModified: 2025-02-12
-    path: https://github.com/LennoxFang/HedgingPlot/archive/refs/heads/main.zip
 ---
 ## Measurement of fund currency forwards
 For each fund `i`, currency `c`, and date `t`, we define the Net Forward Sales (NFS) is calculated as follows:
