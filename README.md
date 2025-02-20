@@ -4,7 +4,7 @@
     Here we collect the dataset of currency forward contracts for major currencies used by U.S. international fixed-income funds.
 
 **Created**: 2025-02-12  
-**Updated**: 2025-02-18  
+**Updated**: 2025-02-20  
 
 **Licenses**:  
 - [Open Data Commons Public Domain Dedication and License v1.0](http://opendatacommons.org/licenses/pddl/)
