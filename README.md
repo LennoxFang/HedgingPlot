@@ -36,7 +36,6 @@ We then aggregate the fund-level NFS position to form an overall metric `NFS_{c,
 
 *Note:*  
 - To view the interactive dashboard, you can run the provided Jupyter Notebook (`CurrencyForward_plot.ipynb`) locally.
-- Alternatively, you can deploy the app to a web server and provide a link for online interaction.
 
 ## How to Run Locally
 
