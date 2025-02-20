@@ -12,7 +12,7 @@
 **Sources**:  
 - [EDGAR system](https://www.sec.gov/search-filings/mutual-funds-search)
 
-## Measurement of fund currency forwards
+## Measurement net of fund currency forwards
 For each fund `f`, currency `c`, and year-quarter `t`, we define the Net Forward Sales (NFS) at currency level as follows:
 ![image](https://github.com/user-attachments/assets/a52a647a-6329-4a3e-aec4-f643473eff7c)
 
