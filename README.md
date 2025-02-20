@@ -14,7 +14,8 @@
 
 ## Measurement net of fund currency forwards
 For each fund `f`, currency `c`, and year-quarter `t`, we define the Net Forward Sales (NFS) at currency level as follows:
-![image](https://github.com/user-attachments/assets/86997fd9-feb5-444f-b663-b98764aa2503)
+![image](https://github.com/user-attachments/assets/de0c5aac-8e44-4324-a844-ffe3fc709506)
+
 
 
 
