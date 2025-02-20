@@ -15,7 +15,7 @@
 ## Measurement of fund currency forwards
 For each fund `i`, currency `c`, and date `t`, we define the Net Forward Sales (NFS) is calculated as follows:
 
-<img width="1089" alt="de3e3f845c0ae0d45f58c1f5ef654c8" src="https://github.com/user-attachments/assets/e052d92f-6f66-40c2-892c-bbfb2e2a5642" />
+[<img width="1089" alt="de3e3f845c0ae0d45f58c1f5ef654c8" src="https://github.com/user-attachments/assets/e052d92f-6f66-40c2-892c-bbfb2e2a5642" />](https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Flatexbot.nobitasoft.com%2Flatex%2F%255Cfrac%257B%255Csum_%257Bf%257DSales_%257Bc%252Cf%252Ct%257D-%255Csum_%257Bf%257DPurchase_%257Bc%252Cf%252Ct%257D%257D%257B%255Csum_%257Bf%257DTNA_%257Bf%252Ct%257D%257D%3Fteam_id%3DT06VAT2HKD4%26digest%3D690f1168eb46fb928c4a79ed9d75f5d23c800609611cbcb8abb93caad3d8921f)
 
 We then aggregate the fund-level NFS position to form an overall metric `NFS_{c,t}` in order to capture the collective behavior of funds for each currency at given time `t`. Similarly, A positive `NFS_{c,t}` implies that funds are collectively hedging their exposure by selling forwards.
   
